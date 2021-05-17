@@ -16,6 +16,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".OrchidActivity">
+
+        </activity>
+
+        <activity android:name=".RosesActivity">
+
+        </activity>
+
+        <activity android:name=".GerberaDaisyActivity">
+
+        </activity>
+
+        <activity android:name=".AlstroemeriaActivity">
+
+        </activity>
+
+        <activity android:name=".LiliesActivity">
+
+        </activity>
+
+        <activity android:name=".TulipActivity">
+
+        </activity>
     </application>
 
 </manifest>

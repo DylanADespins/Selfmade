@@ -1,18 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <TextView
+        style="@style/HeaderTextStyle"
+        android:text="VARIUS FLOWERS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:textSize="48dp"
+        />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:text="Orchids"
+        android:id="@+id/orchid"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="64dp"
+        android:padding="4dp"
+        android:textSize="36dp"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/lilies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:padding="4dp"
+        android:text="Lilies"
+        android:textSize="36dp" />
+
+    <TextView
+        android:text="Tulips"
+        android:id="@+id/tulip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:padding="4dp"
+        android:textSize="36dp"
+        />
+
+    <TextView
+        android:text="Roses"
+        android:id="@+id/roses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:padding="4dp"
+        android:textSize="36dp"
+        />
+
+    <TextView
+        android:text="Gerbera Daisies"
+        android:id="@+id/daisies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="318dp"
+        android:padding="4dp"
+        android:textSize="36dp"
+        />
+
+    <TextView
+        android:text="Alstroemeria"
+        android:id="@+id/alstroemeria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="378dp"
+        android:padding="4dp"
+        android:textSize="36dp"
+        />
+</RelativeLayout>
